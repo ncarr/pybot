@@ -2,10 +2,10 @@
 Bot for Slack built in Python
 
 This is a side project of mine, which hopefully will make it easy to keep track of ideas my team has for upcoming hackathons.
-
 Feel free to use my code, but please credit me (preferably via direct link to this repo). I try to comment it where possible.
-
 If you would like to make a pull request, please make it to "usbot.py". "bot.py" is my stable build.
+
+If you want to add it to your own Slack channel, create cfg.py and set TOKEN to be a string of your bot's token. You might have to change some of the userIDs in the main code, I'll get around to making that easier someday.
 
 # Usage
 
@@ -22,5 +22,5 @@ Make sure there is a space between the command and the person's name.
 
 ## !delidea \<*n*\>
 
-Deletes the *n*th idea in your list of ideas. It is reccomended to call !getideas first.
+Deletes the *n*th idea in your list of ideas. It is reccommended to call !getideas first.
 
